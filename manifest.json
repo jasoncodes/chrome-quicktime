@@ -1,0 +1,12 @@
+{
+	"name": "Play in QuickTime",
+	"version": "0.1",
+	"description": "Opens audio/video files (H.264, AAC, etc) in QuickTime Player.",
+	"content_scripts": [
+		{
+			"matches": ["http://*/*", "https://*/*"],
+			"js": ["content.js"],
+			"all_frames": true
+		}
+	]
+}
