@@ -1,6 +1,6 @@
 {
 	"name": "Play in QuickTime",
-	"version": "0.1",
+	"version": "0.1.1",
 	"description": "Opens audio/video files (H.264, AAC, etc) in QuickTime Player.",
 	"content_scripts": [
 		{
