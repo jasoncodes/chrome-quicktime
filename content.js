@@ -13,6 +13,8 @@
 		var obj = document.createElement('object');
 		obj.style.position = 'absolute';
 		obj.style.visibility = 'hidden';
+		obj.style.top = obj.style.left = '-128px';
+		obj.style.width = obj.style.height = '1px';
 		obj.type = 'video/quicktime';
 		obj.data = 'data:video/quicktime;base64,\
 			AAAAIGZ0eXBxdCAgIAUDAHF0ICAAAAAAAAAAAAAAAAAAAAUjbW9vdgAAAGxtdmhkAAAAAMNzerLDc3qyAAACWAAAAAYAAQAAAQAAAAAAAAAAAA\
