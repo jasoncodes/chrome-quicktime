@@ -8,7 +8,7 @@
 		if (!event.target || !event.target.tagName || !event.target.tagName.toLowerCase() == 'a') return;
 		if (!event.target.href) return;
 		if (!event.target.href.match(/^http?:\/\//)) return;
-		if (!event.target.href.match(/\.(?:mp[34v]|mov|m4[av])$/i)) return;
+		if (!event.target.href.match(/\.(?:mp[34v]|mov|m4[av])(\?.*)?$/i)) return;
 		
 		var obj = document.createElement('object');
 		obj.style.position = 'absolute';
