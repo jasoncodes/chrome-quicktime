@@ -45,7 +45,7 @@
 			controller: 'false',
 			cache: 'true',
 			spec: 'qt'
-		}
+		};
 		for (name in params)
 		{
 			var param = document.createElement('param');
